@@ -1,0 +1,17 @@
+These are the testcases that I have successfully tested 
+
+1) Test-1 : For server 1 we will start a sinlge client, connected to server and tested all 4 arithmetic operations with two operands each.
+    The results returned by the server to the client are correct
+
+2) Test-2 : For server 1, after doing mathematical operations, terminated the client and started the second client and checked that second client can chat with the server
+
+3) Test-3 : For server 1, I tried to connect a second client when the first one is still connected, and checked that its socket operations failed
+
+4) Test-4 : For server 2, all the operations performed are correct for a single client as in Test-1
+
+5) Test-5 : For server 2, tested multiple clients can simultaneously connect and chat with the server
+
+6) Test-6 : For server 2, simultaneously connected and disconnected clients.
+	    All the clients are functioning correctly
+
+7) Test-7 : Tested that server 2 starts multiple processes for multiple clients
